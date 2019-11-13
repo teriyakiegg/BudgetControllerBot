@@ -7,7 +7,7 @@ import (
 
 	"github.com/gin-gonic/gin"
 	_ "github.com/heroku/x/hmetrics/onload"
-	_ "github.com/lib/pq"
+	"github.com/lib/pq"
 	"github.com/line/line-bot-sdk-go/linebot"
 	"github.com/jinzhu/gorm"
 )
